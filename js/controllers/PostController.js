@@ -1,4 +1,6 @@
 app.controller('PostController', ['$scope', function($scope) {
+  $scope.title = 'You Had Me At Hello.';
+  
   $scope.posts = [
     {
       author: {
